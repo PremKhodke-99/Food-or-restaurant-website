@@ -259,3 +259,65 @@ p{
 .card:hover .cat-title a{
     color: var(--primary-color);
 }
+
+
+/* About section design */
+.about-section{
+    background: var(--black-color);
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.625rem;
+}
+.about-section .text-sec{
+    padding-left: 2rem;
+}
+
+/* food type */
+.food-type{
+    padding-top: 3.25rem;
+}
+.food-type ul li{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+.food-type ul li::before{
+    position: absolute;
+    left: -2.1875rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 6 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+/* Explore Food Seection */
+.explore-food .card{
+    border: none;
+    background-color: transperent;
+    border-radius: 0.9375rem;
+}
+
+.explore-food .card img{
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid #eee;
+}
+.explore-food p{
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 22px;
+}
