@@ -321,3 +321,108 @@ p{
     font-size: 14px;
     line-height: 22px;
 }
+
+
+/* testimonial section design */
+.testimonial-section{
+    background: var(--secondary-color);
+
+}
+.testimonial-section h2{
+    color: var(--white-color);
+}
+.testimonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    background-color: var(--black-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+.testimonial-section .carousel-caption img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
+.testimonial-section .carousel-indicators p{
+    font-size: 1.125rem;
+    line-height: 1.5623rem;
+    font-weight: 300;
+    color: var(--white-color);
+    padding: 0 11% 0.625rem;
+}
+.testimonial-section .carousel-indicators{
+    bottom: -2.8125rem;
+}
+.testimonial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
+.testimonial-section .carousel-indicators button.active{
+    opacity: 1;
+}
+
+/* Footer section design */
+.footer{
+    background: var(--black-color);
+}
+/* .footer .footer-link{
+    font-size: 1rem;
+    color: var(--black-color);
+    padding: 0 1.875rem;
+}
+.footer .footer-link:hover{
+    color: var(--white-color);
+} */
+.footer .footer-social a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
+.footer .footer-social a:hover i{
+    color: var(--primary-color);
+}
+
+/* Form Control */
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.newsletter .main-btn{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    border-radius: 0;
+    background-color: var(--white-color);
+    border: 0.1875rem solid var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+}
+.newsletter:hover .form-control{
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--black-color);
+}
+
+.newsletter:hover .main-btn{
+    border: 0.1875rem solid var(--primary-color);
+    background: var(--primary-color);
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
+}

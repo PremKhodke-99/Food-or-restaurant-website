@@ -21,8 +21,13 @@
     }
 
     /* carousel design */
-
+    .testimonial-section .carousel-indicators p{
+       padding: 0; 
+    }
     /* footer link */
+    .footer .footer-social a i{
+        padding: 0 0.75rem ;
+    }
 }
 
 @media (max-width: 767px){
@@ -41,6 +46,14 @@
     }
 
     /* carousel design */
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
 }
 
-
+@media (max-width:330px){
+    /* carousel */
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+}
